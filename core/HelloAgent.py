@@ -27,7 +27,7 @@ class HelloAgentsLLM:
 
     def think(self, messages: List[Dict[str, str]], temperature: float = 0) -> str:
         """
-        调用大语言模型进行思考，并返回其响应。
+        调用大语言模型进行思考，并返回其流式响应。
         """
         print(f"🧠 正在调用 {self.model} 模型...")
         try:

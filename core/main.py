@@ -20,10 +20,3 @@ messages = [{"role": "user", "content": "你好，请介绍一下你自己。"}]
 print("Deepseek Response:")
 response_stream = llm.think(messages)
 
-# 打印响应
-
-'''
-for chunk in response_stream:
-    # chunk 已经是文本片段，可以直接使用
-    print(chunk, end="", flush=True)
-'''
